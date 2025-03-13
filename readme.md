@@ -4,7 +4,7 @@ As networks and data centres scale to tens of thousands of endpoints, the need f
 
 SKEX is intended to support keying of point-to-point secure protocols such as TLS for VPNs and IPsec that need not fit a client-server model. In general, SKEX protocols should not rely on 'all knowing' central servers that may constitute single-point vulnerabilities. Browser communication and other widespread server-centred communication is not intended to be a typical application of SKEX.
 
-Due to the lack of prior standards, current methods for symmetric key distribution frequently depend on manual provisioning, static pre-shared keys (PSKs), or centralized key management, creating operational bottlenecks and security risks. Dynamic environments, such as large-scale data centres, cloud networks, and service provider infrastructures, routing protocols, control plane authentication, and encrypted transport layers require a scalable, automated, and secure approach to symmetric key establishment and distribution that aren’t addressed by currently available solutions.
+Due to the lack of prior standards, current methods for symmetric key distribution frequently depend on manual provisioning, static pre-shared keys (PSKs), or centralized key management, creating operational bottlenecks and security risks. Dynamic environments, such as large-scale data centres, cloud networks, and service provider infrastructures, routing protocols, control plane authentication, and encrypted transport layers require a scalable, automated, and secure approach to symmetric key establishment and distribution that are not addressed by currently available solutions.
 
 Asymmetric cryptography, though widely adopted, presents challenges such as high computational overhead and vulnerability to emerging threats, including cryptographically relevant quantum computers (CRQC) and as-yet unknown potential vulnerabilities of lattice-based cryptography. Existing symmetric key distribution solutions pose security risks due to their reliance on centralized key storage, which creates a single point of compromise.
 
@@ -25,6 +25,6 @@ The SKEX WG will:
 ### Deliverables
 The SKEX WG will produce:
 1. A protocol for Unmediated Symmetric Key Establishment
-2. A protodol for Distributed Symmetric Key Establishement (https://datatracker.ietf.org/doc/draft-mwag-dske/)
+2. A protocol for Distributed Symmetric Key Establishment (https://datatracker.ietf.org/doc/draft-mwag-dske/)
 3. Recommendation documents on integrating SKEX protocols with existing security protocols.
 4. Identification of, and suggestions to other WGs for, extensions to protocols to ingest symmetric keys or for integration of SKEX developed protocols into existing protocols that already support PSK as a key source.
