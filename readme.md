@@ -24,7 +24,7 @@ The SKEX WG will:
 
 ### Deliverables
 The SKEX WG will produce:
-1. Protocols for symmetric key distribution, including one that distributes trust amongst central servers without a single-point security vulnerability between any two endpoints, and one protocol that diversifies security of distribution between subprotocols.
-2. Recommendation documents on integrating SKEX protocols with existing security protocols.
-3. Identification of, and suggestions to other WGs for, extensions to protocols to ingest symmetric keys or for integration of SKEX developed protocols into existing protocols that already support PSK as a key source.
-
+1. A protocol for Unmediated Symmetric Key Establishment
+2. A protodol for Distributed Symmetric Key Establishement (https://datatracker.ietf.org/doc/draft-mwag-dske/)
+3. Recommendation documents on integrating SKEX protocols with existing security protocols.
+4. Identification of, and suggestions to other WGs for, extensions to protocols to ingest symmetric keys or for integration of SKEX developed protocols into existing protocols that already support PSK as a key source.
