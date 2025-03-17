@@ -24,7 +24,7 @@ The SKEX WG will:
 
 ### Deliverables
 The SKEX WG will produce:
-1. A protocol for Unmediated Symmetric Key Establishment
-2. A protocol for Distributed Symmetric Key Establishment (https://datatracker.ietf.org/doc/draft-mwag-dske/)
+1. A protocol for Unmediated Symmetric Key Establishment (with https://mailarchive.ietf.org/arch/msg/skex/8Vgb_sHVjCunlAaNS7P7PTYNfMs/ as a starting point). This protocol should not rely on central hubs to establish keys between 2 or multiple parties.
+2. A protocol for Distributed Symmetric Key Establishment (with https://datatracker.ietf.org/doc/draft-mwag-dske/ as a starting point). This protocol relies on central hubs to establish keys between two or multiple parties without the hubs ever having knowledge of the key material.
 3. Recommendation documents on integrating SKEX protocols with existing security protocols.
 4. Identification of, and suggestions to other WGs for, extensions to protocols to ingest symmetric keys or for integration of SKEX developed protocols into existing protocols that already support PSK as a key source.
